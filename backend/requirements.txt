@@ -1,0 +1,22 @@
+# Core web framework
+fastapi
+uvicorn[standard]
+
+# Pydantic for settings management
+pydantic-settings
+
+# LLM and Orchestration
+langchain
+langgraph
+langchain-google-genai
+
+# Database clients
+motor # Async MongoDB driver
+qdrant-client
+
+# Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+
+# For reading .env file
+python-dotenv
